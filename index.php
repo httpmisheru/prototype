@@ -65,10 +65,10 @@
                 </a>
                 <div id="collapseInventory" class="collapse" aria-labelledby="headingInventory" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="utilities-other.html">Add Information</a>
-                        <a class="collapse-item" href="">Update Information</a>
-                        <a class="collapse-item" href="">Update Inventory Level</a>
-                        <a class="collapse-item" href="">Delete Information</a>
+                        <a class="collapse-item" href="#">Add Information</a>
+                        <a class="collapse-item" href="#">Update Information</a>
+                        <a class="collapse-item" href="#">Update Inventory Level</a>
+                        <a class="collapse-item" href="#">Delete Information</a>
                     </div>
                 </div>
             </li>
@@ -91,10 +91,10 @@
                 <div id="collapsePODocument" class="collapse" aria-labelledby="headingPODocument"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="">Upload Document</a>
-                        <a class="collapse-item" href="">Delete Document</a>
-                        <a class="collapse-item" href="">Generate Report</a>
-                        <a class="collapse-item" href="">Search Document</a>
+                        <a class="collapse-item" href="#">Upload Document</a>
+                        <a class="collapse-item" href="#">Delete Document</a>
+                        <a class="collapse-item" href="#">Generate Report</a>
+                        <a class="collapse-item" href="#">Search Document</a>
                     </div>
                 </div>
                 
