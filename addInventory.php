@@ -433,8 +433,11 @@
 
                     <!-- Add Inventory Form -->
                     <div class="card shadow h-100 py-2">
-                        <div class="card-body">
-                            <div class="row no-gutters align-items-center">
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-gray-800">Stock details</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
                                 <div class="col">
                                     <form>
                                         <div class="form-group">
