@@ -433,13 +433,14 @@
 
                     <!-- Add Inventory Form -->
                     <div class="card shadow h-100 py-2">
-                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                <h6 class="m-0 font-weight-bold text-gray-800">Stock details</h6>
-                            </div>
-                            <div class="card-body">
-                                <div class="row no-gutters align-items-center">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col">
                                     <form>
+                                        <!--Label-->
+                                        <h6 class="font-weight-bold text-gray-800 no-gutters ">Stock details</h6>
+                                        <hr> 
+                                        
                                         <div class="form-group">
                                             <label for="stockName">Stock Name</label>
                                             <input type="text" class="form-control" id="stockName" placeholder="Enter stock name">
@@ -468,6 +469,11 @@
                                             <label for="stockType">Stock Type</label>
                                             <input type="text" class="form-control" id="stockType" placeholder="Enter stock type">
                                         </div>
+
+                                        <!--Label-->
+                                        <h6 class="font-weight-bold text-gray-800 no-gutters pt-4">Supplier details</h6>
+                                        <hr>
+
                                         <div class="form-group">
                                             <label for="supplierName">Supplier Name</label>
                                             <input type="text" class="form-control" id="supplierName" placeholder="Enter supplier name">
@@ -480,13 +486,14 @@
                                             <label for="supplierAddress">Supplier Address</label>
                                             <input type="text" class="form-control" id="supplierAddress" placeholder="Enter supplier address">
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Add Information</button>
+                                        <div class="clearfix pt-4">
+                                            <button type="submit" class="btn btn-primary float-right">Add Information</button>
+                                        </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- /.container-fluid -->
 
