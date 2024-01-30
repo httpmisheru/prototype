@@ -65,7 +65,7 @@
                 </a>
                 <div id="collapseInventory" class="collapse" aria-labelledby="headingInventory" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="">Add Information</a>
+                        <a class="collapse-item" href="addInventory.php">Add Information</a>
                         <a class="collapse-item" href="updateInventory.php">Update Information</a>
                         <a class="collapse-item" href="">Update Inventory Level</a>
                         <a class="collapse-item" href="">Delete Information</a>
@@ -428,9 +428,72 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Welcome Manager</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Update Inventory Information</h1>
                     </div>
 
+                    <!-- Add Inventory Form -->
+                    <div class="card shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col">
+                                    <form>
+                                        <!--Label-->
+                                        <h6 class="font-weight-bold text-gray-800 no-gutters ">Stock details</h6>
+                                        <hr> 
+                                        
+                                        <div class="form-group">
+                                            <label for="stockName">Stock Name</label>
+                                            <input type="text" class="form-control" id="stockName" placeholder="Enter stock name">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <label class="input-group-text" for="stockUnit">Stock Unit</label>
+                                            </div>
+                                            <select class="custom-select col-sm-3" id="stockUnit">
+                                                <option selected>Select Option</option>
+                                                <option value="1">Units</option>
+                                                <option value="2">KG</option>
+                                                <option value="3">G</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="costItem">Cost Per Item</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">RM</span>
+                                                </div>
+                                                <input type="number" class="form-control col-3" id="costItem" aria-label="Amount" pattern="[0-9]+(\\.[0-9][0-9]?)?">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="stockType">Stock Type</label>
+                                            <input type="text" class="form-control" id="stockType" placeholder="Enter stock type">
+                                        </div>
+
+                                        <!--Label-->
+                                        <h6 class="font-weight-bold text-gray-800 no-gutters pt-4">Supplier details</h6>
+                                        <hr>
+
+                                        <div class="form-group">
+                                            <label for="supplierName">Supplier Name</label>
+                                            <input type="text" class="form-control" id="supplierName" placeholder="Enter supplier name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="supplierNumber">Supplier Number</label>
+                                            <input type="tel" class="form-control" id="supplierNumber" placeholder="012-*******" pattern="[0-9]{3}-[0-9]{8}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="supplierAddress">Supplier Address</label>
+                                            <input type="text" class="form-control" id="supplierAddress" placeholder="Enter supplier address">
+                                        </div>
+                                        <div class="clearfix pt-4">
+                                            <button type="submit" class="btn btn-primary float-right">Save Changes</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.container-fluid -->
 

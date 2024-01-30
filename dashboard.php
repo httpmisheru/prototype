@@ -66,7 +66,7 @@
                 <div id="collapseInventory" class="collapse" aria-labelledby="headingInventory" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="">Add Information</a>
-                        <a class="collapse-item" href="">Update Information</a>
+                        <a class="collapse-item" href="updateInventory.php">Update Information</a>
                         <a class="collapse-item" href="">Update Inventory Level</a>
                         <a class="collapse-item" href="">Delete Information</a>
                     </div>
